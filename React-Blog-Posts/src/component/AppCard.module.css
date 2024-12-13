@@ -8,3 +8,23 @@
 .CardBody{
     padding: .5rem;
 }
+
+p{
+    padding: 1rem 0;
+}
+
+.html{
+    background-color: lightcoral;
+}
+
+.css{
+    background-color: lightblue;
+}
+
+.js{
+    background-color: lightpink;
+}
+
+.php{
+    background-color: lightgoldenrodyellow;
+}
