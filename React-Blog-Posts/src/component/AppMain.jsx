@@ -6,7 +6,7 @@ import posts from "../data/data.jsx"
 const PrintCard = (array) => {
     return array.map(curElem => {
         const {id, title, image, content, tags, published} = curElem;
-        return <AppCard id={id} title= {title} image={image} content={content} tag={tag} state={published} />
+        return <AppCard id={id} title= {title} image={image} content={content} tags={tags} state={published} />
     })
 
 }
