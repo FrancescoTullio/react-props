@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 
 
 /* leyout*/
@@ -12,7 +17,17 @@ body{
   background-color: lightgray;
 }
 
-h1{
-  text-align: center;
-  padding: 2.5rem;
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.col{
+  width: 50%;
 }
