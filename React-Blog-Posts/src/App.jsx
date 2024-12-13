@@ -1,10 +1,10 @@
-
+import AppHeader from "./component/AppHeader"
 
 function App() {
 
   return (
     <>
-      <h1>hello word</h1>
+      <AppHeader />
     </>
   )
 }
