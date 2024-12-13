@@ -17,6 +17,7 @@ const AppMain = () => {
             <div className="container">
                 <div className="row">
                     <div className="col">
+                        {PrintCard(posts)}
                     </div>
                 </div>
             </div>
