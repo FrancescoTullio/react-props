@@ -1,6 +1,9 @@
 import style from "./AppMain.module.css"
 import AppCard from "./AppCard";
 import posts from "../data/data.jsx"
+// import tags from "../data/datatag.jsx"
+
+
 
 
 const PrintCard = (array) => {
@@ -10,6 +13,14 @@ const PrintCard = (array) => {
     })
 
 }
+
+// const PrintTag = (array) => {
+//     array.map((curTag, index) => {
+//         return 
+//         <span key={index}>{curTag}</span>
+//         
+//     })
+// }
 
 const AppMain = () => {
     return (

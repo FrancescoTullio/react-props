@@ -23,7 +23,7 @@ const AppCard = (props) => {
                 <h3>{title}</h3>
                 {PrintTag(tags)}
                 <p>{content}</p>
-                <AppButton state={state} />
+                {state && <AppButton state={state} />}
             </div>
 
         </div>
